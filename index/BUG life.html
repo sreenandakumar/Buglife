@@ -1,0 +1,141 @@
+<html>
+
+<head>
+<title > Bug Lifecycle </title>
+</head>
+<body style="border-width:3px; border-style:solid;border-color:black; border-style:line;background-color:mediumyellow">
+<br>
+<div style="background-color:yellow; float:left; width:100% ; height:130PX; overflow: hidden;">
+
+<h1><i style="font-size:40px;color:red;margin:500;"> WELCOME TO TESTING   </i></h1>
+<hr align="right" width="100%" >
+</div>
+
+<br>
+<br>
+<h1 style="color:red"> Bug Lifecycle <h1>
+<hr align="left" width="40%">
+
+<h2 style="margin-left:250px;">    Defect: A defect is an error or a bug in the application which is created.
+
+ </h2>
+<p style= "border-width:6px; border-style:solid;font-size:30px; border-color:blue; border-style:dashed; padding:30px 20px 20px 20px " >
+A programmer while designing and building the software can make mistakes or errors.<br> These mistakes or errors mean that these are flows in the software.<br> These are called 
+defects.
+The bug life cycle is also called a Defect life cycle.
+The phases of the bug life cycle:
+</p>
+<img  src="bug1.png"height="500"width="600";  style="margin-left:420px;"     />
+<br>
+<br>
+<h2 style="margin-left:250px"> Case 1: (Re-Solved)  </h2>
+<hr align="right" width="100%" >
+
+<p style="margin-left:450px;font-size:25px;">  New<br>
+                                ↓<br>
+                             Active<br>
+                                ↓<br>
+                           Re-Solved<br>
+                                ↓<br>
+                              Closed
+</p>
+<br>
+<p style="font-size:20px;margin-left:150px;"> •	("Jira=TFS", New=Proposed, Active = Acknowledged)<br>
+•	New: The Bug was found and it was assigned to the developer.<br>
+•	Active: Once the developer accepted the bug and then they start working on that bug.<br>
+•	Re-Solve: Once the developer fixed that bug and assigns it back to the QA. whoever raises that bug.<br>
+•	Closed: The QA will verify that bug if everything is fine they make it as close.<br>
+</p>
+<h2 style="margin-left:250px"> Case 2:(Duplicate)  </h2>
+<hr align="right" width="100%" >
+
+<br>
+<p style="margin-left:450px;font-size:25px;">  New<br>
+                                ↓<br>
+                             Active<br>
+                                ↓<br>
+                         Duplicate  <br>
+                                ↓<br>
+                              Closed
+</p>
+<p style="font-size:20px;margin-left:150px;"> •	If two QA's raise the same bug they will take the 1st QA bug and they identified the 2nd QA bug as a duplicate.<br>
+•	2nd QA will check that bug, if it's the same, then they close the bug.<br> (Also 2nd QA wants to write the reason why we close that bug. Example reason like:
+<br> "There is one more same bug raised with Bug ID:----, hence close the bug").
+
+</p>
+
+
+
+
+
+<h2 style="margin-left:250px"> Case 3: (Deferred) </h2>
+<hr align="right" width="100%" >
+
+<br>
+<p style="margin-left:450px;font-size:25px;">  New<br>
+                                ↓<br>
+                             Active<br>
+                                ↓<br>
+                         Deferred  <br>
+                              
+</p>
+<p style="font-size:20px;margin-left:150px;"> •	Whenever we have a very tight timeline and the bug is not necessary for that particular release during <br>that scenario they mark the particular bug as 'Deferred' and they push that to the backlog.
+<br>•	If there are a lot of bugs in a deadly timeline(Lack of time) then they call the client and decide which bugs are the priority and which bugs are the non-priority.
+<br>       o	Priority Bugs will be going fixed.
+<br>       o	Non-priority bugs will be in the deferred state and they will push this to the next backlog.
+
+</p>
+
+
+
+<h2 style="margin-left:250px"> Case 4:(Rejected)  </h2>
+<hr align="right" width="100%" >
+
+<br>
+<p style="margin-left:450px;font-size:25px;">  New<br>
+                                ↓<br>
+                             Active<br>
+                                ↓<br>
+                         Rejected  <br>
+                                ↓<br>
+                              Closed
+</p>
+<p style="font-size:20px;margin-left:150px;"> •	The developer can't able to replicate the bug (not fix it).<br>
+•	If the developer feels that the defect is not a genuine defect then it changes the status to Rejected.<br>
+•	If the bug which was assigned to the developer is not an authentic one, then the developer mentions the status of the bug as 'Rejected' with proper reasons.
+
+
+</p>
+
+
+
+
+<h2 style="margin-left:250px"> Case 5: (Re-open) </h2>
+<hr align="right" width="100%" >
+
+<br>
+<p style="margin-left:450px;font-size:25px;">  New<br>
+↓<br>
+            Active        
+                            <br> ↓      <br>     Re-open
+           <br> Re-Solve    <br>
+<br>↓
+<br>Closed
+
+</p>
+<p style="font-size:20px;margin-left:150px;"> •	If the bug persists even after the developer has fixed the bug, the tester changes the status to 'reopened'.<br> Once again the bug goes through the life cycle.
+        (If the bug still appears after the developer has fixed then they re-open that bug and again assign it back to the developer)
+
+</p>
+
+<p style="font-size:20px;margin-left:150px;"> Test Close:<br>
+•	After Re-Solved the bug, don't close the user stories we need to assign them back to BA Name.<br> (like, My testing is completed you please continue your BA Testing and add a tag: ready for release)
+<br>•	Sometimes After release, the customer/client will raise the bugs -> After re-solved the bug -> <br>we assign it back to the client -> then the client will close the bug.
+
+
+</p>
+
+<h2 ><b style="color:red;font-size:20px;margin:600;"> powerd by N.S.N.K  </b> </h2>
+
+</body>
+</html>
